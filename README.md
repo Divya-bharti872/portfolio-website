@@ -7,6 +7,7 @@ This is a simple personal portfolio website created using HTML5.
 
 ## 📂 Project Structure
 - index.html
+- style.css
 - images/
 - README.md
 - requirements.txt
