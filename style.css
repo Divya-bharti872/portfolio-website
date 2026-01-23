@@ -1,0 +1,133 @@
+/* ===== Reset Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Google Font ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* ===== Root Colors ===== */
+:root {
+    --primary: #4f46e5;
+    --secondary: #f97316;
+    --bg: #f9fafb;
+    --text: #1f2933;
+}
+
+/* ===== Body ===== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+    background: var(--primary);
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: var(--secondary);
+}
+
+/* ===== Layout ===== */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* ===== Sections ===== */
+section {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* ===== Image ===== */
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* ===== Skills ===== */
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+li {
+    background: var(--primary);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+/* ===== Form ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background: var(--secondary);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ea580c;
+    transform: scale(1.05);
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    color: white;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        flex-wrap: wrap;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
