@@ -131,3 +131,11 @@ footer {
         padding: 20px;
     }
 }
+.dark{
+    background:#111;
+    color:white;
+}
+
+.dark header{
+    background:black;
+}

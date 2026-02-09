@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+<!--# Personal Portfolio Website
 
 This is a simple personal portfolio website created using HTML5.
 
@@ -23,5 +23,29 @@ This is a simple personal portfolio website created using HTML5.
 Open `index.html` in any web browser.
 
 ## ✨ Author
-Divya
+Divya-->
 
+# Interactive Portfolio Website
+
+This is a simple interactive portfolio website built using
+HTML, CSS and JavaScript.
+
+## Features
+
+- Show / Hide content
+- Image slider
+- To-do list with add and delete
+- Contact form validation
+- Dark and light mode
+- DOM manipulation
+- Event listeners
+
+## Folder Structure
+
+index.html  
+style.css  
+script.js  
+images/
+
+## Created by
+Divya

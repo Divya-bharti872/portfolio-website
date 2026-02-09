@@ -11,6 +11,10 @@
 
 <header>
     <h1>Divya's Portfolio</h1>
+    
+
+    <button id="modeBtn">🌙 Dark Mode</button>
+
     <nav>
         <a href="#about">About</a> |
         <a href="#skills">Skills</a> |
@@ -21,12 +25,24 @@
 <main>
 
 <section id="about">
-    <h2>my self</h2>
+    <h2>My self</h2>
     <p>My name is Divya. I have complete BCA. I am a web developer beginner.</p>
-    <img src="2762.jpg" alt="Divya Photo" width="200">
-    
+    <section>
+    <h2>Image Slider</h2>
+    <div class="slider">
+        <button id="prev">◀</button>
+        <img id="sliderImage" src="2762.jpg" alt="Divya Photo" width="200">
+        <button id="next">▶</button>
+    </div>
 </section>
-
+    
+<section>
+    <h2>About Me</h2>
+    <p id="aboutText">
+        I am a BCA graduate and fresher web designer.
+    </p>
+    <button id="toggleBtn">Show / Hide About</button>
+</section>
 <section id="skills">
     <h2>My Skills</h2>
     <ul>
@@ -35,7 +51,14 @@
         <li>Basic JavaScript</li>
     </ul>
 </section>
+<section>
+    <h2>My To-Do List</h2>
 
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <button id="addTaskBtn">Add</button>
+
+    <ul id="taskList"></ul>
+</section>
 <section id="contact">
     <h2>Contact</h2>
 
@@ -54,10 +77,11 @@
 </section>
 
 </main>
-
+<button type="submit">Submit</button>
 <footer>
     <p>© 2026 Divya Portfolio</p>
 </footer>
-
+ 
+ <script src="script.js"></script>
 </body>
 </html>
