@@ -25,7 +25,7 @@ Open `index.html` in any web browser.
 ## ✨ Author
 Divya-->
 
-# Interactive Portfolio Website
+<!--# Interactive Portfolio Website
 
 This is a simple interactive portfolio website built using
 HTML, CSS and JavaScript.
@@ -48,4 +48,26 @@ script.js
 images/
 
 ## Created by
-Divya
+Divya-->
+
+
+
+# Complete Business Website
+
+This is a responsive multi-page business website created using
+HTML, CSS and JavaScript.
+
+Pages:
+- Home
+- About
+- Services
+- Contact
+
+Features:
+- Responsive layout
+- Navigation between pages
+- Contact form with validation
+- Organized folder structure
+
+Created by Divya
+

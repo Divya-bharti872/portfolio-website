@@ -139,3 +139,47 @@ footer {
 .dark header{
     background:black;
 }
+
+
+
+
+
+
+
+body{
+    font-family:Arial;
+    margin:0;
+}
+
+.navbar{
+    background:#333;
+    padding:10px;
+    display:flex;
+    gap:15px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+}
+
+section{
+    padding:20px;
+}
+
+span{
+    color:red;
+    font-size:12px;
+    display:block;
+}
+
+/* responsive */
+
+@media(max-width:600px){
+
+    .navbar{
+        flex-direction:column;
+        text-align:center;
+    }
+
+}
