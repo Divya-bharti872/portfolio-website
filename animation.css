@@ -1,0 +1,28 @@
+.card{
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+.nav__link{
+    position:relative;
+}
+
+.nav__link::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-4px;
+    width:0;
+    height:2px;
+    background:currentColor;
+    transition:width 0.3s ease;
+}
+
+.nav__link:hover::after,
+.nav__link:focus::after{
+    width:100%;
+}

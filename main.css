@@ -1,0 +1,46 @@
+:root{
+    --bg-color:#ffffff;
+    --text-color:#222;
+    --card-bg:#f2f2f2;
+    --primary:#2563eb;
+}
+
+body.dark{
+    --bg-color:#0f172a;
+    --text-color:#ffffff;
+    --card-bg:#1e293b;
+    --primary:#38bdf8;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:var(--bg-color);
+    color:var(--text-color);
+}
+
+.header{
+    padding:15px;
+    background:var(--card-bg);
+}
+
+.header__title{
+    margin:0 0 10px 0;
+}
+
+.nav{
+    display:flex;
+    gap:15px;
+}
+
+.nav__link{
+    text-decoration:none;
+    color:var(--primary);
+    font-weight:bold;
+}
+
+.card{
+    background:var(--card-bg);
+    padding:15px;
+    border-radius:8px;
+}

@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Divya Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/animation.css">
+
 
 </head>
 
@@ -22,6 +26,7 @@
     <a href="services.html">Services</a>
     <a href="contact.html">Contact</a>
 </nav>
+<button id="themeBtn">Toggle Theme</button>
 </header>
 
 <main>
@@ -33,7 +38,7 @@
     <h2>Image Slider</h2>
     <div class="slider">
         <button id="prev">◀</button>
-         <img id="sliderImage" src="images/2762.jpg" alt="Divya Photo" width="200">
+         <img id="sliderImage" src="images/2762.jpg"  width="200">
         <button id="next">▶</button>
     </div>
 </section>
@@ -77,7 +82,17 @@
         <button type="submit">Send</button>
     </form>
 </section>
+ <section class="card card--gallery">
+        <h2>Gallery</h2>
 
+        <div class="gallery">
+            <img src="images/2762.jpg">
+            <img src="images/2762.jpg">
+            <img src="images/2762.jpg">
+            <img src="images/4649.jpg">
+        </div>
+
+    </section>
 </main>
 <button type="submit">Submit</button>
 <footer>
@@ -85,5 +100,6 @@
 </footer>
  
  <script src="script.js"></script>
+ <script src="js/theme-switcher.js"></script>
 </body>
 </html>

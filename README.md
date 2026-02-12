@@ -52,7 +52,7 @@ Divya-->
 
 
 
-# Complete Business Website
+<!--# Complete Business Website
 
 This is a responsive multi-page business website created using
 HTML, CSS and JavaScript.
@@ -69,5 +69,23 @@ Features:
 - Contact form with validation
 - Organized folder structure
 
+Created by Divya-->
+
+# Advanced Portfolio with CSS Grid
+
+This project is an advanced responsive portfolio website
+built using modern CSS techniques.
+
+Features
+- CSS Grid for main layout
+- Flexbox navigation
+- CSS variables for theme switching
+- Light / Dark mode
+- Smooth animations and transitions
+- Responsive mobile-first layout
+- Image gallery using Grid
+- BEM methodology
+
 Created by Divya
+
 
