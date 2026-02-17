@@ -36,6 +36,8 @@ nav {
     gap: 20px;
 }
 
+
+
 nav a {
     color: white;
     text-decoration: none;
@@ -182,4 +184,37 @@ span{
         text-align:center;
     }
 
+}
+
+.app{
+    max-width:400px;
+    margin:auto;
+    padding:15px;
+    background:white;
+}
+
+input,button{
+    padding:8px;
+    width:100%;
+    margin-bottom:8px;
+}
+
+.error{
+    color:red;
+}
+
+.hide{
+    display:none;
+}
+
+.forecast{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(70px,1fr));
+    gap:8px;
+}
+
+.box{
+    background:#eaeaea;
+    padding:5px;
+    text-align:center;
 }

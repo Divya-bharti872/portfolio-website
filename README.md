@@ -71,7 +71,7 @@ Features:
 
 Created by Divya-->
 
-# Advanced Portfolio with CSS Grid
+<!--# Advanced Portfolio with CSS Grid
 
 This project is an advanced responsive portfolio website
 built using modern CSS techniques.
@@ -86,6 +86,26 @@ Features
 - Image gallery using Grid
 - BEM methodology
 
+Created by Divya-->
+
+
+
+# Weather Dashboard Application
+
+A weather dashboard application using JavaScript and public API.
+
+Features
+- Fetch weather using async / await
+- City search
+- Current weather and 5-day forecast
+- Local storage for last searched city
+- Loading and error handling
+- Responsive layout
+
+APIs
+- OpenWeatherMap API
+
 Created by Divya
+
 
 
